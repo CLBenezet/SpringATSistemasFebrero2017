@@ -12,6 +12,7 @@ public class ProgramaHolaMundo {
 		
 		// y acceder a el para buscar los Beans
 		
+		
 		//Saludador saludador = context.getBean(Saludador.class);
 		//Saludador bean2 = (Saludador) context.getBean("primerSaludador");
 		Saludador saludador = context.getBean("primerSaludador", Saludador.class);
